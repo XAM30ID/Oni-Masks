@@ -6,14 +6,23 @@ ol,ul{list-style:none}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
-*{box-sizing: border-box;font-family: 'Quicksand';}
+*{box-sizing: border-box;font-family: 'Quicksand-regular';}
 
 @font-face {
-	font-family: 'Quicksand'; 
+	font-family: 'Quicksand-regular'; 
 	src: url("../fonts/Quicksand-Regular.ttf"); 
 }
 
 
+@font-face {
+	font-family: 'Quicksand-medium'; 
+	src: url("../fonts/Quicksand-Medium.ttf"); 
+}
+
+@font-face {
+	font-family: 'Quicksand-bold'; 
+	src: url("../fonts/Quicksand-Bold.ttf"); 
+}
 
 /* ↓ ОСНОВНЫЕ СТИЛИ ДЛЯ ХЕДЕРА ↓ */
 .headerWrapper { /* ← "ограничитель" хедера */
@@ -64,18 +73,43 @@ table{border-collapse:collapse;border-spacing:0}
 
 
 /* ↓ ОСНОВНЫЕ СТИЛИ ДЛЯ ФУТЕРА ↓ */
-.mainFooter {
+.mainFooter { /* ← футер */
     font-size: 1.9vh;
 }
 
 .footerWrapper { /* ← "ограничитель" футера */
-    padding: 9vh 20vw;
+    padding: 9vh 20vw 4vh;
     width: 100vw;
 }
 
-.footerColumns {
+.footerColumns { /* ← столбцы в футере */
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
+.footerTitle { /* ← заголовки футер */
+    font-family: 'Quicksand-bold';
+    font-size: 2.3vh;
+    margin-bottom: 2.5vh;
+}
+
+.footerItem { /* ← строчка в футере */
+    line-height: 4vh;    
+    font-family: 'Quicksand-medium';
+}
+
+.footerSocial { /* ← контейнер соцсетей футер */
+    margin-top: 2vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: auto;
+}
+
+.fooetrSocialIco { /* ← соцсети в футере */
+    height: 2.2vh;
+    width: auto;
+    margin-right: 2.5vw;
+}
+/* ↑ ОСНОВНЫЕ СТИЛИ ДЛЯ ФУТЕРА ↑ */
