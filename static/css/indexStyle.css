@@ -24,11 +24,30 @@ table{border-collapse:collapse;border-spacing:0}
 	src: url("../fonts/Quicksand-Bold.ttf"); 
 }
 
+@font-face {
+	font-family: 'Poppins-semiBold'; 
+	src: url("../fonts/Poppins-SemiBold.ttf"); 
+}
+
+@font-face {
+	font-family: 'Inter-light'; 
+	src: url("../fonts/Inter_18pt-Light.ttf"); 
+}
+
+@font-face {
+	font-family: 'Inter-semiBold'; 
+	src: url("../fonts/Inter_18pt-SemiBold.ttf"); 
+}
+
 /* ↓ ОСНОВНЫЕ СТИЛИ ДЛЯ ХЕДЕРА ↓ */
+.mainHeader {
+    margin-bottom: 5.2vh;
+}
+
 .headerWrapper { /* ← "ограничитель" хедера */
     display: flex;
     width: 100vw;
-    padding: 8px 50px;
+    padding: 1.4vh 3vw;
     height: 8vh;
     border-bottom: 0.8px solid rgba(18, 18, 18, 75);
     justify-content: space-between;
@@ -38,7 +57,7 @@ table{border-collapse:collapse;border-spacing:0}
 .mainLogo { /* ← главное лого */
     width: auto;
     height: 100%;
-    margin-right: 32px;
+    margin-right: 3vw;
 }
 
 .headerNavBar { /* ← навигатор хедера */
@@ -50,7 +69,7 @@ table{border-collapse:collapse;border-spacing:0}
 }
 
 .headerItem { /* ← один элемент навигатора */
-    margin-right: 28px;
+    margin-right: 2vw;
     height: 100%;
 }
 
@@ -62,7 +81,7 @@ table{border-collapse:collapse;border-spacing:0}
 .userItems { /* ← один элемент юзер бара */
     height: 100%;
     width: auto;
-    margin-left: 24px;
+    margin-left: 1.8vw;
 }
 
 .headerNavText { /* ← текст навигатора хедера для расположения по-середине */
@@ -113,3 +132,120 @@ table{border-collapse:collapse;border-spacing:0}
     margin-right: 2.5vw;
 }
 /* ↑ ОСНОВНЫЕ СТИЛИ ДЛЯ ФУТЕРА ↑ */
+
+
+.mainGoodWrapper {
+    width: 100vw;
+}
+
+.mainGoodCont {
+    display: flex;
+    padding: 0 auto;
+    justify-content: center;
+}
+
+.MGImg {
+    width: 24vw;
+    height: 24vw;
+    margin-right: 2vw;
+}
+
+.MGRightPart {
+    width: 24vw;
+}
+
+.MGTitle {
+    font-family: 'Poppins-semiBold';
+    font-size: 2.8vw;
+    margin-bottom: 2vh;
+}
+
+.MGCost {
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.MGPrevCost {
+    text-decoration: line-through;
+    font-size: 1.1vw;
+    margin-right: 1.1vw;
+    font-family: 'Quicksand-medium';
+    line-height: 100%;
+}
+
+.MGNowCost {
+    font-size: 1.2vw;
+    font-family: 'Quicksand-medium';
+    line-height: 100%;
+    margin-top: -.4vh;
+    margin-right: 1.1vw;
+}
+
+.MGSaleImg {
+    font-family: 'Inter-light';
+    font-size: .9vw;
+    color: white;
+    background-color: #C42F04;
+    padding: .8vh 1vw;
+    border-radius: 2.2vh;
+    margin-top: -1vh;
+}
+
+.MGColorText {
+    font-size: .9vw;
+    font-family: 'Quicksand-medium';
+}
+
+.MGAddToBtn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Inter-semiBold';
+    font-size: .9vw;
+    color: white;
+    background: linear-gradient(45deg, #C42F04 13%, #FF501E 50%, #FF5959 85%);
+    padding: 12px 0;
+    border: solid #333333 1px;
+    margin-bottom: .7vh;
+}
+
+.MGPayPalBtn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Quicksand-medium';
+    font-size: .9vw;
+    color: #253B80;
+    background-color: #FFC520;
+    padding: 12px 0;
+    border: solid #333333 1px;
+    margin-bottom: 1vh;
+}
+
+.PayPal {
+    margin-bottom: -.8vh;
+    margin-left: .1vw;
+}
+
+.MGMorePayments {
+    text-align: center;
+    font-family: 'Quicksand-medium';
+    font-size: 1vw;
+    margin-bottom: 2vh;
+    text-decoration: underline;
+}
+
+.MGText1 {
+    text-align: center;
+    font-family: 'Quicksand-medium';
+    font-size: 1.1vw;
+    margin-bottom: 2vh;
+}
+
+.MGText2 {
+    text-align: left;
+    font-family: 'Quicksand-medium';
+    font-size: 1vw;
+}
