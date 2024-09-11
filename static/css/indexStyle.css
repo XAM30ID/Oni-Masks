@@ -40,7 +40,7 @@ table{border-collapse:collapse;border-spacing:0}
 }
 
 /* ↓ ОСНОВНЫЕ СТИЛИ ДЛЯ ХЕДЕРА ↓ */
-.mainHeader {
+.main-header {
     margin-bottom: 5.2vh;
 }
 
@@ -64,7 +64,7 @@ table{border-collapse:collapse;border-spacing:0}
     display: flex;
 }
 
-.logoAndBar { /* ← разделение юзер части от остальной */
+.main-header__logoAndBar { /* ← разделение юзер части от остальной */
     display: flex;
 }
 
@@ -134,8 +134,11 @@ table{border-collapse:collapse;border-spacing:0}
 /* ↑ ОСНОВНЫЕ СТИЛИ ДЛЯ ФУТЕРА ↑ */
 
 
+
+/* ↓ ОСНОВНЫЕ СТИЛИ ДЛЯ ГЛАВНОГО ТОВАРА ↓ */
 .mainGoodWrapper {
     width: 100vw;
+    margin-bottom: 5.2vh;
 }
 
 .mainGoodCont {
@@ -249,3 +252,73 @@ table{border-collapse:collapse;border-spacing:0}
     font-family: 'Quicksand-medium';
     font-size: 1vw;
 }
+/* ↑ ОСНОВНЫЕ СТИЛИ ДЛЯ ГЛАВНОГО ТОВАРА ↑ */
+
+
+
+/* ↓  ↓ */
+.goodsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 22vw;
+    justify-content: space-between;
+}
+
+.goodImg {
+    width: 100%;
+    height: auto;
+}
+
+.goodCard {
+    width: 13vw;
+    margin-bottom: 2vh;
+}
+
+.goodTitle {
+    font-family: 'Poppins-semiBold';    
+    margin-bottom: .7vh;
+}
+
+.reviewBlock {
+    display: flex;
+    margin-bottom: 1vh;
+}
+
+.revStars {
+    margin-right: .5vw;
+}
+
+.revText {
+    color: #282828;
+}
+
+.GoodCost {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2vh;
+}
+
+.nowCost {
+    font-size: 1.2vw;
+}
+
+.prevCost {
+    font-size: 1vw;
+    text-decoration: line-through;
+    margin-right: .5vw;
+}
+
+.addGoodToCart {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Inter-semiBold';
+    font-size: .9vw;
+    color: white;
+    background: linear-gradient(45deg, #C42F04 13%, #FF501E 50%, #FF5959 85%);
+    padding: 12px 0;
+    border: solid #333333 1px;
+    margin-bottom: .7vh;
+}
+/* ↑  ↑ */
