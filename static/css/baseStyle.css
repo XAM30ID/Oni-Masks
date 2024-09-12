@@ -1,0 +1,200 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+html{height:100%;box-sizing: border-box;font-family: 'Quicksand';}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+*{box-sizing: border-box;font-family: 'Quicksand-regular';}
+
+@font-face {
+	font-family: 'Quicksand-regular'; 
+	src: url("../fonts/Quicksand-Regular.ttf"); 
+}
+
+
+@font-face {
+	font-family: 'Quicksand-medium'; 
+	src: url("../fonts/Quicksand-Medium.ttf"); 
+}
+
+@font-face {
+	font-family: 'Quicksand-bold'; 
+	src: url("../fonts/Quicksand-Bold.ttf"); 
+}
+
+@font-face {
+	font-family: 'Poppins-semiBold'; 
+	src: url("../fonts/Poppins-SemiBold.ttf"); 
+}
+
+@font-face {
+	font-family: 'Inter-light'; 
+	src: url("../fonts/Inter_18pt-Light.ttf"); 
+}
+
+@font-face {
+	font-family: 'Inter-semiBold'; 
+	src: url("../fonts/Inter_18pt-SemiBold.ttf"); 
+}
+
+
+/* ↓ ОСНОВНЫЕ СТИЛИ ДЛЯ ХЕДЕРА ↓ */
+.main-header {
+    margin-bottom: 5.2vh;
+}
+
+.header-wrapper { /* ← "ограничитель" хедера */
+    display: flex;
+    width: 100vw;
+    padding: 1.4vh 3vw;
+    height: 8vh;
+    border-bottom: 0.8px solid rgba(18, 18, 18, 75);
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.main-header__main-logo { /* ← главное лого */
+    width: auto;
+    height: 100%;
+    margin-right: 3vw;
+}
+
+.header-nav-bar { /* ← навигатор хедера */
+    display: flex;
+}
+
+.main-header__logo-and-bar { /* ← разделение юзер части от остальной */
+    display: flex;
+}
+
+.header-nav-bar__nav-item { /* ← один элемент навигатора */
+    margin-right: 2vw;
+    height: 100%;
+}
+
+.userBar { /* ← юзер бар */
+    display: flex;    
+    line-height: 6vh;
+}
+
+.userItems { /* ← один элемент юзер бара */
+    height: 100%;
+    width: auto;
+    margin-left: 1.8vw;
+}
+
+.nav-item__nav-item-text { /* ← текст навигатора хедера для расположения по-середине */
+    line-height: 6vh;
+}
+/* ↑ ОСНОВНЫЕ СТИЛИ ДЛЯ ХЕДЕРА ↑ */
+
+
+
+/* ↓ ОСНОВНЫЕ СТИЛИ ДЛЯ ФУТЕРА ↓ */
+.main-footer { /* ← футер */
+    font-size: 1.9vh;
+}
+
+.main-footer__wrapper { /* ← "ограничитель" футера */
+    padding: 9vh 20vw 4vh;
+    width: 100vw;
+}
+
+.main-footer__columns { /* ← столбцы в футере */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main-footer__column-title { /* ← заголовки футер */
+    font-family: 'Quicksand-bold';
+    font-size: 2.3vh;
+    margin-bottom: 2.5vh;
+}
+
+.main-footer__item { /* ← строчка в футере */
+    line-height: 4vh;    
+    font-family: 'Quicksand-medium';
+}
+
+.socials-block {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: auto;
+}
+
+.main-footer__socials { /* ← контейнер соцсетей футер */
+    margin-top: 2vh;
+}
+
+.socials-block__icon { /* ← соцсети в футере */
+    height: 2.2vh;
+    width: auto;
+    margin-right: 2.5vw;
+}
+/* ↑ ОСНОВНЫЕ СТИЛИ ДЛЯ ФУТЕРА ↑ */
+
+.good-cost {
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.good-cost__prev-cost {
+    text-decoration: line-through;
+    font-size: 1.1vw;
+    margin-right: 1.1vw;
+    font-family: 'Quicksand-medium';
+    line-height: 100%;
+}
+
+.good-cost__now-cost {
+    font-size: 1.2vw;
+    font-family: 'Quicksand-medium';
+    line-height: 100%;
+    margin-top: -.4vh;
+    margin-right: 1.1vw;
+}
+
+.good-cost__sale-img {
+    font-family: 'Inter-light';
+    font-size: .9vw;
+    color: white;
+    background-color: #C42F04;
+    padding: .8vh 1vw;
+    border-radius: 2.2vh;
+    margin-top: -1vh;
+}
+
+.add-to-cart {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Inter-semiBold';
+    font-size: .9vw;
+    color: white;
+    background: linear-gradient(45deg, #C42F04 13%, #FF501E 50%, #FF5959 85%);
+    padding: 12px 0;
+    border: solid #333333 1px;
+}
+
+.paypal {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Quicksand-medium';
+    font-size: .9vw;
+    color: #253B80;
+    background-color: #FFC520;
+    padding: 12px 0;
+    border: solid #333333 1px;
+}
+
+.PayPal {
+    margin-bottom: -.8vh;
+    margin-left: .1vw;
+}
