@@ -1,0 +1,276 @@
+/* ↓ СТИЛИ ДЛЯ ИНФОРМАЦИИ О ТОВАРЕ ↓ */
+
+.good-info__container {
+    display: flex;
+    padding: 0 20vw;
+    justify-content: space-between;
+}
+
+.image-part__main-image {
+    width: 27vw;
+    height: auto;
+}
+
+.bottom-images {
+    text-align: center;
+    width: 100%;
+}
+
+.image-part__bottom-images {
+    margin-top: 3vh;
+}
+
+.bottom-images__image {
+    width: 4vw;
+    height: auto;
+}
+
+.good-info__info-part {
+    width: 30vw;
+}
+
+.good-info__title {
+    font-family: 'Poppins-semiBold';
+    font-size: 2.5vw;
+    margin-bottom: 1.5vh;
+}
+
+.good-info__review-block {
+    margin-bottom: 1.5vh;
+}
+
+.good-info__prev-cost {
+    color: rgba(18, 18, 18, .75);
+}
+
+.good-info__add-to-cart {
+    margin-bottom: 2vh;
+    width: 80%;
+}
+
+.good-info__paypal {
+    width: 80%;
+    margin-bottom: 1vh;
+}
+
+.good-info__more-payments {
+    width: 80%;
+    text-align: center;
+    font-family: 'Quicksand-medium';
+    font-size: 1vw;
+    margin-bottom: 2vh;
+    text-decoration: underline;
+    margin-bottom: 2.2vh;
+}
+
+.double-offer-block__title {
+    font-family: 'Quicksand-medium';
+    color: rgba(18, 18, 18, .75);
+    font-size: 1.4vw;
+}
+
+.double-offer-block__text {
+    font-family: 'Quicksand-medium';
+    color: rgba(18, 18, 18, .75);
+    font-size: 1vw;
+}
+
+.offer-goods-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+
+.offer-goods-block__good {
+    width: 49.5%;
+    border: solid 1px rgba(18, 18, 18, .75);
+    display: flex;
+    padding: 1vh 1vw 1vh .5vw;
+    border-radius: 10px;
+    margin-bottom: 1vh;
+}
+
+.offer-goods-block__check {
+    width: 1.1vw;
+    height: 1.1vw;
+    margin: auto 0;
+}
+
+.offer-goods-block__image {
+    width: 4vw;
+    height: 4vw;
+    margin-right: .5vw;
+}
+
+.offer-goods-block__title {
+    font-family: 'Quicksand-medium';
+    color: rgba(18, 18, 18, .75);
+    font-size: .9vw;
+}
+
+.offer-goods-block__cost {
+    display: flex;
+}
+
+.offer-goods-block__now-cost {
+    font-family: 'Quicksand-medium';
+    color: #C42F04;
+    font-size: 1vw;
+    margin-right: .5vw;
+}
+
+.offer-goods-block__prev-cost {
+    font-family: 'Quicksand-medium';
+    color: rgba(18, 18, 18, .75);
+    font-size: .9vw;
+    text-decoration: line-through;
+}
+
+.offer-goods-block__about-price {
+    display: flex;
+    margin-bottom: .5vh;
+}
+
+.offer-goods-block__total-price {
+    font-family: 'Quicksand-medium';
+    color: rgba(18, 18, 18, .75);
+    font-size: 1.5vw;
+    margin-right: .3vw;
+}
+
+.offer-goods-block__now-price {
+    font-family: 'Quicksand-medium';
+    color: rgba(18, 18, 18, .75);
+    font-size: 1.1vw;
+    margin-right: .3vw;
+    margin-top: .8vh;
+}
+
+.offer-goods-block__prev-price {
+    font-family: 'Quicksand-medium';
+    color: rgba(18, 18, 18, .75);
+    font-size: .9vw;
+    margin-top: .9vh;    
+    text-decoration: line-through;
+}
+
+.offer-goods-block__percents {
+    font-family: 'Quicksand-medium';
+    color: rgba(18, 18, 18, .75);
+    margin-bottom: 1vh;
+}
+
+.offer-goods-block__buy-button {   
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 25vw;
+    font-family: 'Quicksand-medium';
+    font-size: .9vw;
+    color: white;
+    background: linear-gradient(45deg, #C42F04 13%, #FF501E 50%, #FF5959 85%);
+    padding: 12px 0;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+}
+
+.good-info__badassary-offer {
+    font-family: 'Poppins-semiBold';
+    font-size: 1.2vw;
+    background-color: #FF6600;
+    margin-bottom: 3vh;
+}
+
+.text-about-good__item {
+    margin-bottom: 2vh;
+    font-size: 1.1vw;
+}
+
+.text-about-good__strong {
+    font-family: 'Quicksand-bold';
+}
+
+.text-about-good__usual {
+    font-family: 'Quicksand-regular';
+}
+
+.text-about-good__share {
+    color: #730504;
+    font-family: 'Quicksand-bold';
+    margin-bottom: 50px;
+}
+
+.text-about-good__share-image {
+    height: 100%;
+}
+/* ↑ СТИЛИ ДЛЯ ИНФОРМАЦИИ О ТОВАРЕ ↑ */
+
+.good-reviews {
+    padding: 0 20vw;
+}
+
+.good-revews__wrapper {
+    width: 60vw;
+}
+
+.good-reviews__title {
+    font-size: 24px;
+    font-family: 'Poppins-regular';
+    display: block;
+    margin-bottom: 1.5vh;
+}
+
+.good-reviews__statistic {
+    display: flex;
+    position: relative;
+}
+
+.good-reviews__review-write-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.good-reviews__final-rate {
+    margin-right: 1.5vw;
+    padding-right: 2vw;
+    border-right: solid 1px rgba(18, 18, 18, .75);
+}
+
+.more-rate__rate-line {
+    display: flex;
+    margin-bottom: .3vh;
+}
+
+.more-rate__stars {
+    margin-right: .5vw;
+}
+
+.more-rate__progress-bar {
+    width: 10vw;
+    line-height: 100%;
+    border: solid 1px rgba(18, 18, 18, .75);
+    margin-right: .5vw;
+}
+
+.more-rate__progress-bar_full {
+    background-color: #FBCD0A;
+}
+
+.more-rate__percents {
+    font-family: 'Quicksand-regular';
+    color:rgba(18, 18, 18, .75);
+}
+
+.more-rate {
+    padding-right: 1.5vw;
+    border-right: solid 1px rgba(18, 18, 18, .75);
+}
+
+.good-reviews__review-write-button {
+    padding: .7vh .7vw;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: underline;
+}

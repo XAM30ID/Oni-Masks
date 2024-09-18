@@ -39,15 +39,20 @@ table{border-collapse:collapse;border-spacing:0}
 	src: url("../fonts/Inter_18pt-SemiBold.ttf"); 
 }
 
+@font-face {
+	font-family: 'Poppins-regular'; 
+	src: url("../fonts/Poppins-Regular.ttf"); 
+}
+
 
 /* ↓ ОСНОВНЫЕ СТИЛИ ДЛЯ ХЕДЕРА ↓ */
 .main-header {
     margin-bottom: 5.2vh;
+    width: 100%;
 }
 
 .header-wrapper { /* ← "ограничитель" хедера */
     display: flex;
-    width: 100vw;
     padding: 1.4vh 3vw;
     height: 8vh;
     border-bottom: 0.8px solid rgba(18, 18, 18, 75);
@@ -95,11 +100,11 @@ table{border-collapse:collapse;border-spacing:0}
 /* ↓ ОСНОВНЫЕ СТИЛИ ДЛЯ ФУТЕРА ↓ */
 .main-footer { /* ← футер */
     font-size: 1.9vh;
+    width: 100%;
 }
 
 .main-footer__wrapper { /* ← "ограничитель" футера */
     padding: 9vh 20vw 4vh;
-    width: 100vw;
 }
 
 .main-footer__columns { /* ← столбцы в футере */
@@ -201,4 +206,31 @@ table{border-collapse:collapse;border-spacing:0}
 
 .review-block {
     display: flex;
+    margin-bottom: 1vh;
+}
+
+.review {
+    border-top: 1px solid #000;
+    padding: 2vh 0;
+}
+
+.review__info {
+    display: flex;
+}
+
+.review__reviewer-photo {
+    margin-right: .5vw;
+}
+
+.review__reviewer-name {
+    font-family: 'Quicksand-bold';
+    color:rgba(18, 18, 18, .75);
+}
+
+.review__stars {
+    margin-right: .8vw;
+}
+
+.review__text {
+    margin-top: 1vh;
 }
