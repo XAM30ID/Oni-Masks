@@ -1,0 +1,131 @@
+.cart-info {
+    width: 100%;
+    padding: 0 25vw;
+}
+
+.cart-info__container {
+    width: 100%;
+}
+
+.cart-info__top-part {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2.2vh;
+}
+
+.cart-info__columns-titles {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cart-good {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-good__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-remove {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-good__quantity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-info__title {
+    font-size: 3vw;
+    font-family: 'Poppins-regular';
+}
+
+.cart-info__proceed-button {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Inter-semiBold';
+    font-size: .8vw;
+    padding: 10px 40px;
+    height: 50%;
+    color: white;
+    background: linear-gradient(45deg, #C42F04 13%, #FF501E 50%, #FF5959 85%);
+    border: solid #333333 1px;
+}
+
+.cart-info__columns-titles {
+	font-family: 'Quicksand-medium';
+    color: rgba(12, 12, 12, .75);
+    font-size: .9vw;
+    margin-bottom: 2.2vh;
+}
+
+.cart-info__column-title:first-child {
+    margin-right: 10vw;
+}
+
+.cart-good {
+    border-bottom: solid 1px rgba(12, 12, 12, .75);
+    border-top: solid 1px rgba(12, 12, 12, .75);
+    padding: 2.2vh 0;
+    margin-bottom: 2.2vh;
+}
+
+.cart-good__image {
+    margin-right: 2vw;
+}
+
+.cart-good__title {
+    font-family: 'Poppins-semiBold'; 
+    font-size: 1vw;
+    margin-bottom: 1vh;
+}
+
+.cart-good__cost {
+    font-family: 'Quicksand-regular'; 
+    font-size: .95vw;
+    color: rgba(12, 12, 12, .75);
+}
+
+.add-remove {
+    border: solid 1px rgba(12, 12, 12, .75);
+    height: fit-content;
+}
+
+.add-remove__item {
+    width: 3vw;
+    height: 5vh;
+    text-align: center;
+    padding-top: 1.5vh;
+}
+
+.cart-good__recycle-bin {
+    margin: 1.5vh 0 0 1vw;
+    width: 1vw;
+    height: 1vw;
+}
+
+.cart-info__bottom-part {
+    width: 100%;
+    display: flexbox;
+    text-align: end;
+    justify-items: end;
+}
+
+.cart-info__paypal {
+    width: 15.3vw;
+    margin-left: 33.7vw;
+    margin-top: 4vh;
+}
+
+.cart-info__subtotal-text {
+	font-family: 'Quicksand-bold'; 
+}
+
+.cart-info__subtotal-cost {
+    margin-bottom: 3vh;
+}
