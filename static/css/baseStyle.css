@@ -92,6 +92,12 @@ table{border-collapse:collapse;border-spacing:0}
 
 .nav-item__nav-item-text { /* ← текст навигатора хедера для расположения по-середине */
     line-height: 6vh;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.nav-item__nav-item-text:hover {
+    text-decoration: underline;
 }
 /* ↑ ОСНОВНЫЕ СТИЛИ ДЛЯ ХЕДЕРА ↑ */
 
@@ -184,6 +190,13 @@ table{border-collapse:collapse;border-spacing:0}
     background: linear-gradient(45deg, #C42F04 13%, #FF501E 50%, #FF5959 85%);
     padding: 12px 0;
     border: solid #333333 1px;
+    transition: 5s;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    transition: 5s;
+    background: linear-gradient(45deg, #D66D4F 13%, #FF8464 50%, #FF8A8A 85%);
 }
 
 .paypal {
@@ -197,6 +210,11 @@ table{border-collapse:collapse;border-spacing:0}
     background-color: #FFC520;
     padding: 12px 0;
     border: solid #333333 1px;
+    transition: .2s;
+}
+
+.paypal:hover {
+    background-color: #d5a214;
 }
 
 .PayPal {
