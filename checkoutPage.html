@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/css/baseStyle.css">
+        <link rel="stylesheet" href="static/css/checkoutStyle.css">
+        <title>Japanese Oni Masks</title>
+    </head>
+
+    <body>
+        <header class="main-header checkout-header">
+            <div class="header-wrapper">
+                <div class="main-header__logo-and-bar">
+                    <img src="static/images/header/logo.png" alt="" class="main-header__main-logo">
+                    <ul class="header-nav-bar">
+                        <li class="header-nav-bar__nav-item nav-item">
+                            <div class="nav-item__nav-item-text">
+                                Japanese Mask
+                            </div>
+                        </li>
+                        <li class="header-nav-bar__nav-item nav-item">
+                            <div class="nav-item__nav-item-text">
+                                Kimono
+                            </div>
+                        </li>
+                        <li class="header-nav-bar__nav-item nav-item">
+                            <div class="nav-item__nav-item-text">
+                                Haori
+                            </div>
+                        </li>
+                        <li class="header-nav-bar__nav-item nav-item">
+                            <div class="nav-item__nav-item-text">
+                                Hanten
+                            </div>
+                        </li>
+                        <li class="header-nav-bar__nav-item nav-item">
+                            <div class="nav-item__nav-item-text">
+                                Hoodie
+                            </div>
+                        </li>
+                        <li class="header-nav-bar__nav-item nav-item">
+                            <div class="nav-item__nav-item-text">
+                                Japanese Apperals
+                            </div>
+                        </li>
+                        <li class="header-nav-bar__nav-item nav-item">
+                            <div class="nav-item__nav-item-text">
+                                Accesories
+                            </div>
+                        </li>
+                        <li class="header-nav-bar__nav-item nav-item">
+                            <div class="nav-item__nav-item-text">
+                                Blog
+                            </div>
+                        </li>
+                        <li class="header-nav-bar__nav-item nav-item">
+                            <div class="nav-item__nav-item-text">
+                                Help
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="userBar">
+                    <li class="userItems">
+                        <img src="static/images/header/search icon.png" alt="" class="userButton">
+                    </li>
+                    <li class="userItems">
+                        <img src="static/images/header/account icon.png" alt="" class="userButton">
+                    </li>
+                    <li class="userItems">
+                        <img src="static/images/header/basket icon.png" alt="" class="userButton">
+                    </li>
+                </ul>
+            </div>
+        </header>    
+
+        <section class="checkout">
+            <div class="checkout__wrapper">
+                <div class="checkout__left-part checkout-info">
+                    <div class="checkout-info__top-part">
+                        <div class="checkout-info__title">Express checkout</div>
+                        <a href="" class="checkout-info__pay-pal paypal">
+                            Buy with 
+                            <img src="static/images/PayPal.png" alt="" class="PayPal">
+                        </a>
+                    </div>
+
+                    <div class="checkout-info__OR-delimeter OR-delimeter">
+                        <div class="OR-delimeter__line"></div>
+                        <div class="OR-delimeter__OR">OR</div>
+                        <div class="OR-delimeter__line"></div>
+                    </div>
+
+                    <form action="" class="user-info">
+                        <div class="user-info__top-part">
+                            <label for="contact" class="user-info__label">Contact</label>
+                            <div class="user-info__log-in">
+                                Log in
+                            </div>
+                        </div>
+                        <input type="text" id="contact" class="user-info__text-input" placeholder="Email or mobile phone number">
+
+                        <input type="checkbox" id="offer" class="user-info__checkbox"> 
+                        <label for="offer" class="user-info__checkbox-label">Email me with news and offers</label>
+                        
+                        <label for="delivery" class="user-info__label">Delivery</label>
+                        <div class="user-info__names-inputs">
+                            <input type="text" id="delivery" class="user-info__text-input" placeholder="First name">
+                            <input type="text" id="last-name" class="user-info__text-input" placeholder="Last name">
+                        </div>
+
+                        <input type="text" id="address" class="user-info__text-input" placeholder="Address">
+
+                        <input type="text" id="apparts" class="user-info__text-input" placeholder="Apartment, suite, etc. (optional)">
+
+                        <div class="user-info__place-inputs">
+                            <input type="text" id="city" class="user-info__text-input" placeholder="City">
+                            <input type="text" id="state" class="user-info__text-input" placeholder="State">
+                            <input type="text" id="zip" class="user-info__text-input" placeholder="ZIP code">
+                        </div>
+
+                        <input type="text" id="phone" class="user-info__text-input" placeholder="Phone">
+  
+                        <input type="checkbox" id="text-saving" class="user-info__checkbox"> 
+                        <label for="text-saving" class="user-info__checkbox-label">Save this information for next time</label>
+                        <br>
+                        <input type="checkbox" id="news" class="user-info__checkbox"> 
+                        <label for="news" class="user-info__checkbox-label">Text me with news and others</label>        
+                        
+                        <label for="payments" class="user-info__label">Payments</label>
+                        <div class="user-info__trnsactions">All transactions are secure and encrypted.</div>
+
+                        <div class="user-info__card-info card-info">
+                            <div class="card-info__title">
+                                <input type="radio" id="card-payment" name="payment-type" class="card-info__type" checked="checked">
+                                <label for="card-payment">
+                                    <div class="card-info__payment-info">
+                                        <div class="card-info__payment-title">Credit card</div>
+                                        <div class="card-info__payments-images">
+                                            <img src="static/images/cardTypes/visa.png" alt="" class="card-info__payment-image">
+                                            <img src="static/images/cardTypes/master-card.png" alt="" class="card-info__payment-image">
+                                            <img src="static/images/cardTypes/amex.png" alt="" class="card-info__payment-image">
+                                            <img src="static/images/cardTypes/JCB.png" alt="" class="card-info__payment-image">
+                                            <img src="static/images/cardTypes/plus-four.png" alt="" class="card-info__payment-image">
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="card-info__cards-inputs">
+                                <input type="text" class="user-info__text-input" id="card-number" placeholder="Card number">
+                                <div class="card-info__middle-inputs">
+                                    <input type="text" class="user-info__text-input" id="card-date" placeholder="Expiration date (MM/YY)">
+                                    <input type="text" class="user-info__text-input" id="card-code" placeholder="Security code">
+                                </div>
+                                <input type="text" class="user-info__text-input" id="card-name" placeholder="Name on card">
+                                <input type="checkbox" id="addresses" class="user-info__checkbox" checked="checked"> 
+                                <label for="addresses" class="user-info__checkbox-label">Use shipping address as billing address</label>  
+                            </div>
+
+                            <div class="card-info__title">
+                                <input type="radio" id="paypal-payment" name="payment-type" class="card-info__type card-info__paypal">
+                                <label for="paypal-payment">
+                                    <div class="card-info__payment-info">
+                                        <div class="card-info__payment-title">PayPal</div>
+                                        <img src="static/images/PayPal.png" alt="" class="card-info__payment-image paypal-image">
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <button class="checkout__button">Pay now</button>
+                    </form>
+
+                    <footer class="checkout-footer">
+                        <div class="checkout-footer__wrapper">
+                            <div class="checkout-footer__item">Privacy policy</div>
+                            <div class="checkout-footer__item">Terms of service</div>
+                        </div>
+                    </footer>
+                </div>
+
+                <div class="checkout__right-part cart-info">
+                    <div class="cart-info__top-part">
+                        <img class="cart-info__image" src="static/images/goodInfo/secongIMG.png">
+                        <div class="cart-info__about">
+                            <div class="cart-info__main-title">Japanese Oni Mask - Latex</div>
+                            <div class="cart-info__subtitle">Black Oni Mask</div>
+                        </div>
+                        <div class="cart-info__cost">$37.99</div>
+                    </div>
+                    <div class="cart-info__discount-part">
+                        <input type="text" class="user-info__text-input" placeholder="Discount code">
+                        <div class="cart-info__apply">Apply</div>
+                    </div>
+                    <div class="cart-info__subtotal-cost-part">
+                        <div class="cart-info__cost-title">Subtotal</div>
+                        <div class="cart-info__subcost">$37.99</div>
+                    </div>
+                    <div class="cart-info__shipping-part">
+                        <div class="cart-info__shipping-title">Shipping</div>
+                        <div class="cart-info__where-shipping">Enter shipping address</div>
+                    </div>
+                    <div class="cart-info__total-cost-part">
+                        <div class="cart-info__total-cost-title">Total</div>
+                        <div class="cart-info__total-cost">$165.99</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
