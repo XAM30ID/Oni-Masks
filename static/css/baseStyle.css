@@ -50,6 +50,9 @@ table{border-collapse:collapse;border-spacing:0}
     margin-bottom: 5.2vh;
     width: 100%;
 }
+.main-header__menu-button {
+    display: none;
+}
 
 .header-wrapper { /* ← "ограничитель" хедера */
     display: flex;
@@ -251,4 +254,40 @@ table{border-collapse:collapse;border-spacing:0}
 
 .review__text {
     margin-top: 1vh;
+}
+
+@media (max-width: 960px) {
+    .header-nav-bar {
+        display: none;
+    }
+
+    .main-header__menu-button {
+        margin-top: 1.5vh;
+        height: 40%;
+        display: block;
+    }
+
+    .main-footer__wrapper { /* ← "ограничитель" футера */
+        padding: 9vh 7vw 4vh;
+    }
+    
+    .add-to-cart {
+        font-size: 1.5vw;
+    }
+    
+    .paypal {
+        font-size: 1.5vw;
+    }
+    
+    .good-cost__prev-cost {
+        font-size: 1.5vw;
+    }
+
+    .good-cost__now-cost {
+        font-size: 2vw;
+    }
+
+    .good-cost__sale-img {
+        font-size: 1.5vw;
+    }
 }

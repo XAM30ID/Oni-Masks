@@ -288,3 +288,78 @@
     border: none;
     border-radius: 5px;
 }
+
+@media (max-width: 960px) {
+
+    .checkout__wrapper {
+        display: block;
+    }
+
+    .checkout__left-part {
+        padding: 0 20vw;
+        width: 100%;
+        border-right: none;
+    }
+
+    .checkout-info {
+        padding-top: 5vh;
+    }
+
+    .checkout-info__pay-pal {
+        width: 25vw;
+        margin: 0 17vw 3vh;
+    }
+
+    .checkout-info__title {
+        font-size: 1.5vw;
+    }
+
+    .OR-delimeter__line {
+        width: 28vw;
+    }
+
+    .OR-delimeter__OR {
+        font-size: 1.5vw;
+    }
+
+    .user-info__label {
+        font-size: 1.7vw;
+    }
+
+    .user-info__log-in {
+        font-size: 1.7vw;   
+    }
+
+    .user-info__text-input {
+        font-size: 1.7vw;
+    }
+
+    .user-info__trnsactions { 
+        font-size: 1.3vw;
+    }
+
+    .card-info__payment-title {
+        font-size: 1.5vw;
+        margin-right: 2vw;
+    }
+
+    .card-info__payments-images {
+        margin-right: -55vw;
+    }
+
+    .checkout-footer {
+        display: none;
+    }
+
+    .checkout__button {
+        margin-bottom: 2vh;
+    }
+
+    .checkout__right-part {
+        padding: 0 20vw;
+        width: 100%;
+        border-right: none;
+        background-color: white;
+        height: 45vh;
+    }
+}

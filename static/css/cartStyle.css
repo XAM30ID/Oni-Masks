@@ -129,3 +129,51 @@
 .cart-info__subtotal-cost {
     margin-bottom: 3vh;
 }
+
+@media (max-width: 960px) {
+    .cart-info {
+        padding: 0 7vw;
+    }
+    
+    .cart-info__title {
+        font-size: 3vw;
+    }
+    
+    .cart-info__proceed-button {
+        font-size: 1.3vw;
+    }
+    
+    .cart-info__columns-titles {
+        font-size: 1.1vw;
+    }
+    
+    .cart-info__column-title:first-child {
+        margin-right: 15vw;
+    }
+    
+    .cart-good__title {
+        font-size: 1.7vw;
+    }
+    
+    .cart-good__cost {
+        font-size: 1.5vw;
+    }
+
+    .cart-good__recycle-bin {
+        width: 1.2vw;
+        height: 1.2vw;
+    }
+    
+    .cart-info__bottom-part {
+        width: 100%;
+        display: block;
+        text-align: end;
+        justify-items: end;
+    }
+    
+    .cart-info__paypal {
+        width: 25vw;
+        margin-left: 61.5vw;
+        margin-top: 4vh;
+    }
+}

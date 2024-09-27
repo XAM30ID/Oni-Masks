@@ -116,4 +116,59 @@
     text-decoration: line-through;
     margin-right: .5vw;
 }
+
+.goods-grid__title {
+    font-size: 2vw;
+}
 /* ↑  ↑ */
+
+@media (max-width: 960px) {
+
+    .main-good__image {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .good-info {
+        width: 40vw;
+    }
+
+    .good-info__title {
+        font-size: 4.5vw;
+    }
+
+    .good-info__more-payments {
+        font-size: 1.5vw;
+    }
+    
+    .good-info__text1 {
+        font-size: 1.7vw;
+    }
+    
+    .good-info__text2 {
+        font-size: 1.7vw;
+    }
+
+
+    .goods-grid__wrapper {
+        padding: 0 7vw;
+    }
+    
+    .base-good-card {
+        width: 40vw;
+    }
+
+    .base-good-card__now-cost {
+        font-size: 1.4vw;
+    }
+    
+    .base-good-card__prev-cost {
+        font-size: 1.2vw;
+        text-decoration: line-through;
+        margin-right: .5vw;
+    }
+
+    .goods-grid__good {
+        margin-bottom: 3vh;
+    }
+}
