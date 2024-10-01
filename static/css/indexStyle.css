@@ -26,11 +26,6 @@
     margin-bottom: 2vh;
 }
 
-.good-color_text {
-    font-size: .9vw;
-    font-family: 'Quicksand-medium';
-}
-
 .good-info__add-to-cart {
     margin-bottom: .7vh;
 }
@@ -170,5 +165,49 @@
 
     .goods-grid__good {
         margin-bottom: 3vh;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .main-good__cont {
+        display: block;    
+        padding: 0 7vw;
+    }
+
+    .main-good__image {
+        width: 86vw;
+        height: 86vw;
+        margin-bottom: 2vh;
+    }
+
+    .good-info {
+        width: 100%;
+    }
+
+    .good-info__title {
+        font-size: 6vw;
+    }
+
+    .good-info__more-payments {
+        font-size: 3vw;
+    }
+    
+    .good-info__text1 {
+        font-size: 4vw;
+    }
+    
+    .good-info__text2 {
+        font-size: 4vw;
+    }
+
+    .base-good-card__now-cost {
+        font-size: 3vw;
+    }
+    
+    .base-good-card__prev-cost {
+        font-size: 2vw;
+        margin-right: 1vw;
     }
 }
