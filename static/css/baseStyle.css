@@ -44,6 +44,9 @@ table{border-collapse:collapse;border-spacing:0}
 	src: url("../fonts/Poppins-Regular.ttf"); 
 }
 
+a {
+    text-decoration: none;
+}
 
 /* ↓ ОСНОВНЫЕ СТИЛИ ДЛЯ ХЕДЕРА ↓ */
 .main-header {
