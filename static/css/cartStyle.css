@@ -224,6 +224,7 @@
     .cart-info__paypal {
         width: 42vw;
         margin-top: 4vh;
+	margin-left: 0;
     }
 
     .cart-info__subtotal {
